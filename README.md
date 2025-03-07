@@ -11,3 +11,5 @@ usage: check_websites_status.py [-h] [-v] [-m {thread,process}] [-e]
    - Select parallelization mode: thread or process (default: thread)
  - -e, --email
    - Send email regardless of errors (default: only send on errors)
+### Add/Delete Websites
+Edit the file called "websites.txt". The file shows which websites are being proxied to which machine.
